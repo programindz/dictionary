@@ -78,6 +78,6 @@ if button:
 
             with col2:
                st.subheader("Thesaurus")
-               st.markdown("***Nothing Available***")
+               st.markdown("***Working on it***")
 
 
