@@ -12,14 +12,14 @@ st.set_page_config(
         'About': "Made With Love And Lots Of Efforts!!"
      }
  )
-@st.cache
+@st.cache_data
 def get_json(url):
    req = requests.get(url)
    if req.status_code != 200:
       return None
    return req.json()
 
-@st.cache
+@st.cache_data
 def get_definition(word):
    url = "https://dictionary-by-api-ninjas.p.rapidapi.com/v1/dictionary"
 
