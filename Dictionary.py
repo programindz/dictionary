@@ -4,7 +4,7 @@ import json
 from streamlit_lottie import st_lottie
 
 st.set_page_config(
-     page_title="Dictionary By KI",
+     page_title="Dictionary By programindz",
      page_icon=":book:",
      layout="wide",
      menu_items={
@@ -44,7 +44,7 @@ with st.container():
    left, right = st.columns([2, 1])
    with left:
       st.title(":books:  DICTIONARY")
-      st.caption("By *KI*")
+      st.caption("By *programindz*")
 
       word = st.text_input("What are you looking for?", placeholder = "Search for a word")
       button = st.button("Search", help = "Search for the word")
